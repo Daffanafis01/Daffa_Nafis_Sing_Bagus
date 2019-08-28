@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Star Wars Planet</title>
+    <link rel="Data" type="text/js" href="l.js">
+</head>
+<body>
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for names..">
+    
+    <table width="100%" border="1" id="myTable"> 
+        <tr class="header">
+          <td>#</td>
+          <td>Name</td>
+          <td>Rotation Period</td>
+          <td>Orbital Period</td>
+          <td>Diameter</td>
+          <td>Climate</td>
+          <td>Gravity</td>
+          <td>Terrain</td>
+          <td>Surface Water</td>
+          <td>Population</td>
+          <td>Created</td>
+          <td>Edited</td>
+          <td>URL</td>
+        </tr>
+        <tr>
+          <td>1</td>
+          <td>Alderaan</td>
+          <td>24</td>
+          <td>364</td>
+          <td>12500</td>
+          <td>temperate</td>
+          <td>1 standard</td>
+          <td>grasslands, mountains</td>
+          <td>40</td>
+          <td>2000000000</td>
+          <td>2014-12-10T11:35:48.479000Z</td>
+          <td>2014-12-20T20:58:18.420000Z</td>
+          <td>https://swapi.co/api/planets/2/</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>Yavin I</td>
+          <td>24</td>
+          <td>4818</td>
+          <td>10200</td>
+          <td>temperate, tropical</td>
+          <td>1 standard</td>
+          <td>jungle, rainforests</td>
+          <td>8</td>
+          <td>1000</td>
+          <td>2014-12-10T11:37:19.144000Z</td>
+          <td>2014-12-20T20:58:18.421000Z</td>
+          <td>https://swapi.co/api/planets/3/</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Hoth</td>
+            <td>23</td>
+            <td>549</td>
+            <td>7200</td>
+            <td>frozen</td>
+            <td>1.1 standard</td>
+            <td>tundra, ice caves, mountain ranges</td>
+            <td>100</td>
+            <td>unknown</td>
+            <td>2014-12-10T11:39:13.934000Z</td>
+            <td>2014-12-20T20:58:18.423000Z</td>
+            <td>https://swapi.co/api/planets/4/</td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Dagobah</td>
+            <td>23</td>
+            <td>341</td>
+            <td>8900</td>
+            <td>murky</td>
+            <td>N/A</td>
+            <td>swamp, jungles</td>
+            <td>8</td>
+            <td>unknown</td>
+            <td>2014-12-10T11:42:22.590000Z</td>
+            <td>2014-12-20T20:58:18.425000Z</td>
+            <td>https://swapi.co/api/planets/5/</td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Bespin</td>
+            <td>12</td>
+            <td>5110</td>
+            <td>118000</td>
+            <td>temperate</td>
+            <td>1.5 (surface), 1 standard (Cloud City)</td>
+            <td>gas giant</td>
+            <td>0</td>
+            <td>6000000</td>
+            <td>2014-12-10T11:42:22.240000Z</td>
+            <td>2014-12-20T20:58:18.427000Z</td>
+            <td>https://swapi.co/api/planets/6/</td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Endor</td>
+            <td>18</td>
+            <td>402</td>
+            <td>4900</td>
+            <td>temperate</td>
+            <td>0.85 standard</td>
+            <td>forests, mountains, lakes</td>
+            <td>8</td>
+            <td>30000000</td>
+            <td>2014-12-10T11:42:22.349000Z</td>
+            <td>2014-12-20T20:58:18.429000Z</td>
+            <td>https://swapi.co/api/planets/7/</td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Naboo</td>
+            <td>26</td>
+            <td>312</td>
+            <td>12120</td>
+            <td>temperate</td>
+            <td>1 standard</td>
+            <td>grassy hills, swamps, forests, mountains</td>
+            <td>12</td>
+            <td>4500000000</td>
+            <td>2014-12-10T11:42:22.066000Z</td>
+            <td>2014-12-20T20:58:18.430000Z</td>
+            <td>https://swapi.co/api/planets/8/</td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Coruscant</td>
+            <td>24</td>
+            <td>368</td>
+            <td>12240</td>
+            <td>temperate</td>
+            <td>1 standard</td>
+            <td>cityscape, mountains</td>
+            <td>unknown</td>
+            <td>1000000000000</td>
+            <td>2014-12-10T11:42:22.921000Z</td>
+            <td>2014-12-20T20:58:18.432000Z</td>
+            <td>https://swapi.co/api/planets/9/</td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>Kamino</td>
+            <td>27</td>
+            <td>463</td>
+            <td>19720</td>
+            <td>temperate</td>
+            <td>1 standard</td>
+            <td>cocean</td>
+            <td>100</td>
+            <td>1000000000</td>
+            <td>2014-12-10T12:45:06.577000Z</td>
+            <td>2014-12-20T20:58:18.434000ZZ</td>
+            <td>https://swapi.co/api/planets/1/</td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>Geonosis</td>
+            <td>30</td>
+            <td>256</td>
+            <td>11370</td>
+            <td>temperate, arid</td>
+            <td>0.9 standard</td>
+            <td>rock, desert, mountain, barren</td>
+            <td>5</td>
+            <td>100000000000</td>
+            <td>2014-12-10T12:47:22.350000Z</td>
+            <td>2014-12-20T20:58:18.437000Z</td>
+            <td>https://swapi.co/api/planets/11/</td>
+          </tr>
+      </table>
+</body>
+</html>
